@@ -2,14 +2,42 @@ How to verify and install GPG4Win
 26 December 2020
 
 1. Download GPG4win from https://www.gpg4win.org
-2. Verify its integrity by verifying its SHA checksums: https://www.gpg4win.org/package-integrity.html
-3. Install it, check by UAC: Intevation GmbH|
-4. Verify its signature:
-	4.1. Restart Windows to make changes in PATH effective	
-	4.2. Open Terminal and go to Downloads folder
-	4.3. Import public key from public servers:
-		gpg --keyserver pool.sks-keyservers.net --recv-keys 13E3CE81AFEA6F683E466E0D42D876082688DA1A
-		Reference: https://unix.stackexchange.com/a/445339
-	4.4. Verify it
-		gpg --verify gpg4win*.sig gpg4win*.exe
 
+2. Verify its integrity by verifying its SHA checksums: 
+
+https://www.gpg4win.org/package-integrity.html
+
+3. Install it, check by UAC: Intevation GmbH
+
+4. Verify its signature:
+
+4.1. Restart Windows to make changes in PATH effective	
+
+4.2. Open Terminal and go to Downloads folder
+
+4.3. Import public key from public servers:
+		
+gpg --keyserver pool.sks-keyservers.net --recv-keys 13E3CE81AFEA6F683E466E0D42D876082688DA1A
+
+Output:
+gpg: C:/Users/Ert/AppData/Roaming/gnupg/trustdb.gpg: trustdb created
+gpg: key 42D876082688DA1A: public key "Intevation File Distribution Key <distribution-key@intevation.de>" imported
+gpg: Total number processed: 1
+gpg:               imported: 1
+
+Reference: https://unix.stackexchange.com/a/445339
+
+4.4. Verify it
+
+gpg --verify gpg4win*.sig gpg4win*.exe
+
+gpg: Signature made 11/25/2020 6:39:05 AM Central Standard Time
+gpg:                using RSA key 13E3CE81AFEA6F683E466E0D42D876082688DA1A
+gpg: Good signature from "Intevation File Distribution Key <distribution-key@intevation.de>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 13E3 CE81 AFEA 6F68 3E46  6E0D 42D8 7608 2688 DA1A
+
+Sources:
+* https://www.gpg4win.org/package-integrity.html
+* https://wiki.gnupg.org/Gpg4win/CheckIntegrity
