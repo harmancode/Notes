@@ -12,3 +12,4 @@ I have fixed this error by giving Full Disk Access to Terminal and to /usr/bin/r
 Extra sources:
 https://apple.stackexchange.com/questions/224747/using-rsync-to-backup
 https://stackoverflow.com/questions/30671292/running-rsync-as-root-operations-not-permitted
+https://www.haykranen.nl/2008/05/05/rsync/
