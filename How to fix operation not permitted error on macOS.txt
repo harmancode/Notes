@@ -1,0 +1,6 @@
+How to fix opendir operation not permitted error from rsync on macOS Catalina
+27 Dec 2020
+
+I was getting opendir operation not permitted error from rsync on macOS Catalina.
+
+I have fixed this error by giving Full Disk Access to Terminal and to /usr/bin/rsync. Tip: You can use CMD + Shift + G to choose the folder of rsync in System Preferences - Security & Privacy.
