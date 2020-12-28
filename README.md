@@ -2,6 +2,8 @@
 
 My public notes about various stuff for future reference
 
+Copyright Ertugrul Harman 2020 (https://twitter.com/harmancode, https://github.com/harmancode, https://harman.page)
+
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 
 ## Disclaimer of Warranties and Limitation of Liability
