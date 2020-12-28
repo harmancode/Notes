@@ -8,7 +8,3 @@ The command I was using: rsync -vaE --progress /Volumes/SourceName /Volumes/Dest
 Source: https://apple.stackexchange.com/a/117469/65292
 
 I have fixed this error by giving Full Disk Access to Terminal and to /usr/bin/rsync. Tip: You can use CMD + Shift + G to choose the folder of rsync in System Preferences - Security & Privacy.
-
-Extra sources:
-https://apple.stackexchange.com/questions/224747/using-rsync-to-backup
-https://stackoverflow.com/questions/30671292/running-rsync-as-root-operations-not-permitted
