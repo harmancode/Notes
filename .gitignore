@@ -130,3 +130,5 @@ dmypy.json
 
 # .bak files
 *.bak
+
+.DS_Store

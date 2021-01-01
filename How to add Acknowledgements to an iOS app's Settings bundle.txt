@@ -1,0 +1,5 @@
+How to add Acknowledgements to an iOS app's Settings bundle
+by Ertugrul Harman (twitter.com/harmancode - github.com/harmancode)
+01 January 2021
+
+Check out this gist of mine: https://gist.github.com/harmancode/af6d68e5af071a672a3b99c8966303d4
