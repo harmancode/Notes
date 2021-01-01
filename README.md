@@ -5,6 +5,7 @@ My public notes about various stuff for future reference
 Copyright Ertugrul Harman 2020 
 * Twitter: https://twitter.com/harmancode
 * GitHub: https://github.com/harmancode
+* Gist: https://gist.github.com/harmancode/
 * Web: https://harman.page
 
 ## License
