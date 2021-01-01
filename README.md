@@ -7,6 +7,7 @@ Copyright Ertugrul Harman 2020
 * GitHub: https://github.com/harmancode
 * Gist: https://gist.github.com/harmancode/
 * Web: https://harman.page
+* Blog: https://ertugrulharman.com/en
 
 ## License
 
